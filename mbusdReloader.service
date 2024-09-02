@@ -1,0 +1,14 @@
+[Unit]
+Description=Mbusd Modbus TCP Reloader
+After=network.target
+
+[Service]
+ExecStart=/root/mbusdReloader.sh
+Restart=always
+RestartSec=10
+User=root
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
