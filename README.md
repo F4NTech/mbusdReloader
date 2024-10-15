@@ -26,5 +26,3 @@ systemctl start mbusdReloader.service
 
 make sure you use root user to run this script.
 thanks
-
-Muhammad Farhan
